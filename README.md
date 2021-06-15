@@ -25,7 +25,7 @@
 
 <img src="https://i.imgur.com/VATCZFB.png"/>
 
-##  You can see and modify the source code of [AutoCtor](AutoCtor) and [AutoMap](AutoMap) attributes  
+##  You can see and modify the source code of [AutoCtor](https://github.com/raminrahimzada/T4Plus/blob/master/DemoProject/AutoCtorAttribute.cs) and [AutoMap](https://github.com/raminrahimzada/T4Plus/blob/master/DemoProject/AutoMapAttribute.cs) attributes  
 
 ## Installation
 ## There is a generator executable file named `T4Plus.exe` and you should fix its location (or add its path to PATH env variable before usage so can use directly by name)
