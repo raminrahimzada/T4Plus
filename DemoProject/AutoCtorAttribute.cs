@@ -29,7 +29,6 @@ namespace DemoProject
                         writer.WriteLine(props.Select(x => $"this.{x.Name}={x.Name.FirstToLower()};"));
                     }
                 }
-                writer.Comment("TODO");
             }
         }
     }

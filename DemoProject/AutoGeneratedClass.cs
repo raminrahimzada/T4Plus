@@ -11,5 +11,20 @@ namespace DemoProject
             this.Weight=weight;
         }
     }
-    //TODO
+}
+namespace DemoProject
+{
+    public static partial class Extensions
+    {
+        public static DemoProject.UserDTO Map(this DemoProject.User user)
+        {
+            if(user==null) return null;
+            var result = new DemoProject.UserDTO();
+            result.Id = result.Id;
+            result.Name = result.Name;
+            result.Age = result.Age;
+            result.Weight = result.Weight;
+            return result;
+        }
+    }
 }
